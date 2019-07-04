@@ -1,0 +1,19 @@
+type User {
+  id: ID! @unique
+  email: String! @unique
+  password: String!
+  authTokens: [String]
+  signedUpOn: DateTime!
+}
+
+type LoginAttempt {
+  id: ID! @unique
+  successful: Boolean!
+  badEmail: Boolean
+  badPassword: Boolean
+  email: String
+  password: String
+  authToken: String
+  time: DateTime!
+  ip: String!
+}

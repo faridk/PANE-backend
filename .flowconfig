@@ -1,0 +1,19 @@
+[ignore]
+# Save RAM and get fewer errors
+.*/node_modules/.*
+# Ignore prisma files
+.*/prisma/.*
+
+# Flow code transpiled to regular JS
+.*/build/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+# Check all files for errors
+all=true
+# Ignore lines under custom comments ($FlowFixMe by default)
+suppress_comment= \\(.\\|\n\\)*\\$NoFlow

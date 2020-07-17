@@ -34,7 +34,7 @@
     "graphql": "^14.1.1",
     "graphql-tools": "^4.0.4",
     "graphql-upload": "^8.0.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "prisma-client-lib": "^1.29.1",
     "validator": "^10.11.0",
     "ws": "^6.2.0"
